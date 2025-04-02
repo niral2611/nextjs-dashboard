@@ -11,7 +11,7 @@ export default function InvoiceStatus({status}:{status: String}) {
                 },
                 
             )}
-        >
+        />
 
         //..
     )
