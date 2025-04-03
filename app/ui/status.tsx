@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 
-export default function InvoiceStatus({status}:{status: String}) {
+export default function InvoiceStatus({status}:{status: string}) {
     return (
         <span
             className={clsx(
