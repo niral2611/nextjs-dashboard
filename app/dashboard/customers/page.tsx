@@ -12,8 +12,7 @@ export default async function Page({
   searchParams?: { query?: string; page?: string };
 }) {
   const query = searchParams?.query || '';
-  const currentPage = Number(searchParams?.page) || 1;
-  const customers = await fetchFilteredCustomers(query, currentPage);
+  const customers = await fetchFilteredCustomers(query);
 
   return (
     <div>
